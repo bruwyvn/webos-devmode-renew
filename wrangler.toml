@@ -1,0 +1,7 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "webos-devmode-renew"
+main = "src/index.ts"
+compatibility_date = "2024-05-02"
+
+[triggers]
+crons = ["0 0 * * *"]
